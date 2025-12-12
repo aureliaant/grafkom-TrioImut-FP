@@ -74,7 +74,8 @@ export function createKediriScene(scene) {
         'treasure',
         0x8B4513,
         'Peti Rempah-Rempah',
-        'Kediri terkenal sebagai penghasil rempah-rempah berkualitas tinggi yang diperdagangkan hingga ke negeri Tiongkok.'
+        'Kediri terkenal sebagai penghasil rempah-rempah berkualitas tinggi yang diperdagangkan hingga ke negeri Tiongkok.',
+        '/images/artifacts/Peti Rempah-Rempah (Kediri).webp'
     );
     spiceChest.position.set(10, 1, -8);
     scene.add(spiceChest);
