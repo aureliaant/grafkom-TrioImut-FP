@@ -1,0 +1,20 @@
+{
+  "name": "virtual-museum-majapahit",
+  "version": "1.0.0",
+  "description": "Virtual Museum with Lobby-Door Concept - Majapahit Scene",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["threejs", "webgl", "virtual-museum", "majapahit"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "three": "^0.160.0"
+  }
+}
