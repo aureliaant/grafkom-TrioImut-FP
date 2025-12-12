@@ -99,7 +99,7 @@ export function createSriwijayaScene(scene) {
         0x8B4513,
         'Model Kapal Dagang Sriwijaya',
         'Miniatur kapal dagang besar yang digunakan Sriwijaya untuk menguasai jalur perdagangan maritim Nusantara dan Asia Tenggara.',
-        '/images/artifacts/kapal dagang sriwijaya.jpeg'
+        '/images/artifacts/kapal-dagang-sriwijaya.jpeg'
     );
     shipModel.position.set(-10, 1, 5);
     scene.add(shipModel);
@@ -110,7 +110,7 @@ export function createSriwijayaScene(scene) {
         0xFFD700,
         'Prasasti Kedukan Bukit',
         'Prasasti tertua Sriwijaya (683 M) yang menceritakan perjalanan Raja Dapunta Hyang dalam menaklukkan wilayah.',
-        '/images/artifacts/prasasti kedukan bukit.jpeg'
+        '/images/artifacts/prasasti-kedukan-bukit.jpeg'
     );
     inscription.position.set(10, 1, -8);
     scene.add(inscription);

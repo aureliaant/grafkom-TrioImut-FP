@@ -76,7 +76,8 @@ export function createTarumanegaraScene(scene) {
         'inscription',
         0xFFD700,
         'Prasasti Telapak Kaki Purnawarman',
-        'Prasasti dengan ukiran telapak kaki gajah dan kaki Raja Purnawarman. Menandakan kekuasaan raja yang setara dengan Dewa Wisnu.'
+        'Prasasti dengan ukiran telapak kaki gajah dan kaki Raja Purnawarman. Menandakan kekuasaan raja yang setara dengan Dewa Wisnu.',
+        '/images/artifacts/prasasti-telapak-kaki-purnawarman.jpeg'
     );
     footprint.position.set(-8, 1, 8);
     scene.add(footprint);
@@ -87,7 +88,7 @@ export function createTarumanegaraScene(scene) {
         0xA0826D,
         'Arca Gajah Airawata',
         'Patung gajah suci kendaraan Raja Purnawarman, melambangkan kekuatan dan kemakmuran kerajaan Tarumanegara.',
-        '/images/artifacts/arca gajah.jpeg'
+        '/images/artifacts/arca-gajah.jpeg'
     );
     elephantStatue.position.set(8, 1.5, -8);
     scene.add(elephantStatue);

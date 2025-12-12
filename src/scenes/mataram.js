@@ -61,7 +61,7 @@ export function createMataramScene(scene) {
         0xFFD700,
         'Arca Durga Mahisasuramardini',
         'Patung Dewi Durga yang membunuh raksasa kerbau, masterpiece seni Mataram Kuno yang ada di Candi Prambanan.',
-        '/images/artifacts/arca durga.png'
+        '/images/artifacts/arca-durga.png'
     );
     durgaStatue.position.set(-8, 1.5, 5);
     scene.add(durgaStatue);
@@ -72,7 +72,7 @@ export function createMataramScene(scene) {
         0xFF6347,
         'Miniatur Candi Prambanan',
         'Kompleks candi Hindu terbesar di Indonesia yang dibangun pada abad ke-9, dedikasi untuk Trimurti: Brahma, Wisnu, dan Siwa.',
-        '/images/artifacts/candi prambanan.jpg'
+        '/images/artifacts/candi-prambanan.jpg'
     );
     temple.position.set(8, 1, -5);
     scene.add(temple);

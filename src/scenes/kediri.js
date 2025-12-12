@@ -64,7 +64,7 @@ export function createKediriScene(scene) {
         0xFFD700,
         'Kitab Bharatayuddha',
         'Karya sastra klasik karya Mpu Sedah dan Mpu Panuluh yang menceritakan perang Bharata dari Mahabharata.',
-        '/images/artifacts/kitab barathayudha.jpg'
+        '/images/artifacts/kitab-barathayudha.jpg'
     );
     manuscript.position.set(-8, 1, 5);
     scene.add(manuscript);
@@ -75,7 +75,7 @@ export function createKediriScene(scene) {
         0x8B4513,
         'Peti Rempah-Rempah',
         'Kediri terkenal sebagai penghasil rempah-rempah berkualitas tinggi yang diperdagangkan hingga ke negeri Tiongkok.',
-        '/images/artifacts/Peti Rempah-Rempah (Kediri).webp'
+        '/images/artifacts/peti-rempah-rempah-kediri.webp'
     );
     spiceChest.position.set(10, 1, -8);
     scene.add(spiceChest);

@@ -99,7 +99,7 @@ export function createKutaiScene(scene) {
         0xCD853F,
         'Arca Raja Mulawarman',
         'Patung Raja Mulawarman, raja terbesar Kerajaan Kutai yang terkenal dermawan. Ia memberikan 20.000 ekor sapi kepada para brahmana.',
-        '/images/artifacts/Patung Raja Mulawarman,.jpeg'
+        '/images/artifacts/patung-raja-mulawarman.jpeg'
     );
     kutaiStatue.position.set(8, 1.5, -3);
     scene.add(kutaiStatue);
@@ -110,7 +110,7 @@ export function createKutaiScene(scene) {
         0xFFD700,
         'Harta Karun Kutai',
         'Peti berisi perhiasan emas dan artefak kerajaan Kutai. Kerajaan ini sangat makmur dari perdagangan hasil hutan dan sungai.',
-        '/images/artifacts/peti emas kutai.jpg'
+        '/images/artifacts/peti-emas-kutai.jpg'
     );
     kutaiTreasure.position.set(0, 0.5, -8);
     scene.add(kutaiTreasure);

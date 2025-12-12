@@ -82,7 +82,7 @@ export function createMajapahitScene(scene) {
         0x8B0000,
         'Gapura Bentar',
         'Gerbang candi khas Majapahit yang terbagi dua, melambangkan gunung yang terbelah sebagai pintu menuju kesucian.',
-        '/images/artifacts/gapura bentar.jpg'
+        '/images/artifacts/gapura-bentar.jpg'
     );
     gapuraModel.position.set(0, 1, -12);
     scene.add(gapuraModel);
@@ -93,7 +93,7 @@ export function createMajapahitScene(scene) {
         0xCD853F,
         'Arca Gajah Mada',
         'Patung Mahapatih agung Majapahit yang terkenal dengan Sumpah Palapa untuk menyatukan Nusantara.',
-        '/images/artifacts/arca gajah mada.jpg'
+        '/images/artifacts/arca-gajah-mada.jpg'
     );
     gajahmadaStatue.position.set(-10, 1.5, 5);
     scene.add(gajahmadaStatue);
@@ -104,7 +104,7 @@ export function createMajapahitScene(scene) {
         0xFFD700,
         'Keris Pusaka Majapahit',
         'Keris pusaka warisan Majapahit yang dipercaya memiliki kekuatan spiritual dan melambangkan kejayaan kerajaan.',
-        '/images/artifacts/keris majapahit.jpeg'
+        '/images/artifacts/keris-majapahit.jpeg'
     );
     keris.position.set(10, 1, -5);
     scene.add(keris);
