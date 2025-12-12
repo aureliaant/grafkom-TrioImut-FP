@@ -64,7 +64,8 @@ export function createSailendraScene(scene) {
         'treasure',
         0xFFD700,
         'Miniatur Borobudur',
-        'Candi Buddha terbesar di dunia yang dibangun wangsa Sailendra. Memiliki 504 arca Buddha dan 2672 panel relief.'
+        'Candi Buddha terbesar di dunia yang dibangun wangsa Sailendra. Memiliki 504 arca Buddha dan 2672 panel relief.',
+        '/images/artifacts/candi borobudur.jpeg'
     );
     borobudurModel.position.set(0, 1, -12);
     scene.add(borobudurModel);
@@ -74,7 +75,8 @@ export function createSailendraScene(scene) {
         'statue',
         0xFFA500,
         'Arca Buddha Dhyani',
-        'Patung Buddha dalam posisi meditasi yang melambangkan pencapaian nirwana dan pencerahan spiritual.'
+        'Patung Buddha dalam posisi meditasi yang melambangkan pencapaian nirwana dan pencerahan spiritual.',
+        '/images/artifacts/arca buddha.jpeg'
     );
     buddhaStatue.position.set(-10, 1.5, 5);
     scene.add(buddhaStatue);

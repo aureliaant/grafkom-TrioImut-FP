@@ -63,7 +63,8 @@ export function createKediriScene(scene) {
         'inscription',
         0xFFD700,
         'Kitab Bharatayuddha',
-        'Karya sastra klasik karya Mpu Sedah dan Mpu Panuluh yang menceritakan perang Bharata dari Mahabharata.'
+        'Karya sastra klasik karya Mpu Sedah dan Mpu Panuluh yang menceritakan perang Bharata dari Mahabharata.',
+        '/images/artifacts/kitab barathayudha.jpg'
     );
     manuscript.position.set(-8, 1, 5);
     scene.add(manuscript);

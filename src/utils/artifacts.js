@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 
 // Create interactive artifact with floating animation
-export function createArtifact(type, color, title, description) {
+export function createArtifact(type, color, title, description, imageUrl = null) {
     const group = new THREE.Group();
     
     let mesh;
@@ -42,6 +42,7 @@ export function createArtifact(type, color, title, description) {
         artifactType: type,
         title: title,
         description: description,
+        imageUrl: imageUrl,
         info: `🔍 Klik untuk info: ${title}`,
         isAnimated: true,
         baseY: 0,

@@ -86,7 +86,8 @@ export function createTarumanegaraScene(scene) {
         'statue',
         0xA0826D,
         'Arca Gajah Airawata',
-        'Patung gajah suci kendaraan Raja Purnawarman, melambangkan kekuatan dan kemakmuran kerajaan Tarumanegara.'
+        'Patung gajah suci kendaraan Raja Purnawarman, melambangkan kekuatan dan kemakmuran kerajaan Tarumanegara.',
+        '/images/artifacts/arca gajah.jpeg'
     );
     elephantStatue.position.set(8, 1.5, -8);
     scene.add(elephantStatue);

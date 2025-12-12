@@ -87,7 +87,8 @@ export function createKutaiScene(scene) {
         'inscription',
         0xFFD700,
         'Prasasti Yupa',
-        'Tujuh prasasti batu peninggalan Kerajaan Kutai yang berisi tulisan Sansekerta. Prasasti ini menceritakan tentang Raja Mulawarman dan upacara keagamaan Hindu.'
+        'Tujuh prasasti batu peninggalan Kerajaan Kutai yang berisi tulisan Sansekerta. Prasasti ini menceritakan tentang Raja Mulawarman dan upacara keagamaan Hindu.',
+        '/images/artifacts/Prasasti-Yupa02.jpg'
     );
     yupaPrasasti.position.set(-8, 1, 3);
     scene.add(yupaPrasasti);
@@ -97,7 +98,8 @@ export function createKutaiScene(scene) {
         'statue',
         0xCD853F,
         'Arca Raja Mulawarman',
-        'Patung Raja Mulawarman, raja terbesar Kerajaan Kutai yang terkenal dermawan. Ia memberikan 20.000 ekor sapi kepada para brahmana.'
+        'Patung Raja Mulawarman, raja terbesar Kerajaan Kutai yang terkenal dermawan. Ia memberikan 20.000 ekor sapi kepada para brahmana.',
+        '/images/artifacts/Patung Raja Mulawarman,.jpeg'
     );
     kutaiStatue.position.set(8, 1.5, -3);
     scene.add(kutaiStatue);
@@ -107,7 +109,8 @@ export function createKutaiScene(scene) {
         'treasure',
         0xFFD700,
         'Harta Karun Kutai',
-        'Peti berisi perhiasan emas dan artefak kerajaan Kutai. Kerajaan ini sangat makmur dari perdagangan hasil hutan dan sungai.'
+        'Peti berisi perhiasan emas dan artefak kerajaan Kutai. Kerajaan ini sangat makmur dari perdagangan hasil hutan dan sungai.',
+        '/images/artifacts/peti emas kutai.jpg'
     );
     kutaiTreasure.position.set(0, 0.5, -8);
     scene.add(kutaiTreasure);

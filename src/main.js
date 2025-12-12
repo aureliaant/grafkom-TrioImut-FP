@@ -547,6 +547,16 @@ function checkAnswer(selectedIndex, correctIndex, explanation) {
 function showArtifactInfo(artifactData) {
     document.getElementById('artifact-title').textContent = artifactData.title;
     document.getElementById('artifact-description').textContent = artifactData.description;
+    
+    const imageElement = document.getElementById('artifact-image');
+    if (artifactData.imageUrl) {
+        imageElement.src = artifactData.imageUrl;
+        imageElement.alt = artifactData.title;
+        imageElement.classList.add('show');
+    } else {
+        imageElement.classList.remove('show');
+    }
+    
     document.getElementById('artifact-panel').classList.add('show');
 }
 

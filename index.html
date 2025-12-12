@@ -166,6 +166,20 @@
             pointer-events: all;
         }
 
+        #artifact-image {
+            width: 100%;
+            max-height: 250px;
+            object-fit: contain;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            display: none;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        #artifact-image.show {
+            display: block;
+        }
+
         #artifact-panel h3 {
             color: #FFD700;
             margin-bottom: 10px;
@@ -455,6 +469,7 @@
 
     <!-- Artifact Info Panel -->
     <div id="artifact-panel">
+        <img id="artifact-image" src="" alt="" />
         <h3 id="artifact-title"></h3>
         <p id="artifact-description"></p>
         <button id="close-artifact">✕ Tutup</button>

@@ -82,7 +82,8 @@ export function createKalinggaScene(scene) {
         'statue',
         0xFFD700,
         'Timbangan Keadilan Ratu Shima',
-        'Patung timbangan keadilan yang melambangkan hukum adil Ratu Shima. Pencuri akan dipotong tangannya tanpa pandang bulu.'
+        'Patung timbangan keadilan yang melambangkan hukum adil Ratu Shima. Pencuri akan dipotong tangannya tanpa pandang bulu.',
+        '/images/artifacts/ratu sima.png'
     );
     scaleStatue.position.set(0, 1.5, -8);
     scene.add(scaleStatue);
@@ -92,7 +93,8 @@ export function createKalinggaScene(scene) {
         'inscription',
         0xCD853F,
         'Prasasti Tuk Mas',
-        'Prasasti peninggalan Kerajaan Kalingga yang menceritakan tentang sistem pemerintahan yang sangat jujur dan adil.'
+        'Prasasti peninggalan Kerajaan Kalingga yang menceritakan tentang sistem pemerintahan yang sangat jujur dan adil.',
+        '/images/artifacts/prasasti tuk mas.png'
     );
     inscription.position.set(-10, 1, 5);
     scene.add(inscription);
